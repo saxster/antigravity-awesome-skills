@@ -1,8 +1,7 @@
 name: Skill Review & Optimize
 on:
-  pull_request:
-    paths: ['**/SKILL.md']
-
+  push:
+    branches: [main]
 jobs:
   review:
     runs-on: ubuntu-latest

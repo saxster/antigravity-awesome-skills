@@ -1,5 +1,7 @@
 name: Queue Skill Optimization Apply
 on:
+  push:
+    branches: [main]
   issue_comment:
     types: [created]
 
